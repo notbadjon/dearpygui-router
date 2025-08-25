@@ -1,0 +1,30 @@
+[project]
+name = "dearpygui-router"
+authors = [
+  { name="Gudjon Einar Magnusson", email="gmagnusson@fraunhofer.org" },
+]
+description = "DearPyGui extension to make it easy to navigate between screens"
+version = "1.0.0"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dearpygui>1.0.0"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3 :: Only",
+
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
