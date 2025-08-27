@@ -1,10 +1,10 @@
 [project]
 name = "dearpygui-router"
 authors = [
-  { name="Gudjon Einar Magnusson", email="gmagnusson@fraunhofer.org" },
+  { name="Gudjon Einar Magnusson", email="gudjon@notbadjon.com" },
 ]
 description = "DearPyGui extension to make it easy to navigate between screens"
-version = "1.0.0"
+version = "0.1.0"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
