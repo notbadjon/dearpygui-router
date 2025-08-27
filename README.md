@@ -21,10 +21,10 @@ Managing multiple "screens" in DearPyGui typically requires manually hiding/show
 
 ## Features
 
-✅ Simple navigation: navigate("route")
-✅ Nested routers: navigate("parent/child/screen")
-✅ Screens as reusable classes or functions
-✅ Familiar DPG-style API: with dpgr.router(), with dpgr.screen()
+- ✅ Simple navigation: `navigate("route")`
+- ✅ Nested routers: `navigate("parent/child/screen")`
+- ✅ Screens as reusable classes or functions
+- ✅ Familiar DPG-style API: with `dpgr.router()`, with `dpgr.screen()`
 
 ## Basic Usage
 
